@@ -1,0 +1,25 @@
+[
+  {
+    "id": "IMPORT-EXAMPLE-001",
+    "subject": "정보시스템 기반 기술",
+    "topic": "운영체제",
+    "question": "[직접 작성용] 프로세스와 스레드의 관계에 관한 설명으로 옳은 것은?",
+    "choices": [
+      "모든 프로세스는 반드시 주소 공간을 공유한다",
+      "스레드는 실행 흐름을 가질 수 없다",
+      "프로세스에는 자원이 할당되지 않는다",
+      "같은 프로세스의 스레드는 주소 공간을 공유할 수 있다"
+    ],
+    "answer": 4,
+    "explanation": "프로세스는 실행 중인 프로그램의 자원 관리 단위이고 스레드는 실행 흐름의 단위다. 같은 프로세스 내 스레드는 코드·데이터 등 주소 공간을 공유하지만 스택과 레지스터 상태는 개별적으로 유지한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Industrial-Engineer-Information-Processing-CBT/blob/main/docs/QUESTION_REVIEW.md",
+    "verificationStatus": "pending",
+    "reviewNote": "양식 예제: 등록 전 직접 검수 필요",
+    "version": "main",
+    "rights": "자체 제작 · CC BY 4.0 · 정보처리산업기사 CBT 기여자 표시. 외부 원문 전재 없음."
+  }
+]
